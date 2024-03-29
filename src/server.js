@@ -1,9 +1,11 @@
 import Vision from "@hapi/vision";
 import Hapi from "@hapi/hapi";
 import Cookie from "@hapi/cookie";
+import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 import Handlebars from "handlebars";
+import Joi from "joi";
 import { webRoutes } from "./web-routes.js";
 import { db } from "./models/db.js";
 import { accountsController } from "./controllers/accounts-controller.js";
@@ -15,6 +17,12 @@ Handlebars.registerHelper("json", (context) => JSON.stringify(context));
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const result = dotenv.config();
+if (result.error) {
+  console.log(result.error.message);
+  process.exit(1);
+}
+
 async function init() {
   const server = Hapi.server({
     port: process.env.PORT || 3000,
@@ -22,6 +30,7 @@ async function init() {
 
   await server.register(Vision);
   await server.register(Cookie);
+  server.validator(Joi);
 
   server.views({
     engines: {
@@ -37,8 +46,8 @@ async function init() {
 
   server.auth.strategy("session", "cookie", {
     cookie: {
-      name: "playtime",
-      password: "secretpasswordnotrevealedtoanyone",
+      name: "LANGO",
+      password: "a0e62d286f44893174d4f151c4dd490e",
       isSecure: false,
     },
     redirectTo: "/",
