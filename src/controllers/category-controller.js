@@ -25,4 +25,12 @@ export const categoryController = {
       return h.redirect(`/category/${category._id}`);
     },
   },
+
+  deleteSchool: {
+    handler: async function(request, h) {
+      const category = await db.categoryStore.getCategoryById(request.params.id);
+      await db.schoolStore.deleteSchool(request.params.schoolid);
+      return h.redirect(`/category/${category._id}`);
+    },
+  },
 };
