@@ -4,6 +4,7 @@ export const categoryController = {
   index: {
     handler: async function (request, h) {
       const category = await db.categoryStore.getCategoryById(request.params.id);
+      console.log("Category data sent to view:", category); // Log the category data
       const viewData = {
         title: "Category",
         category: category,

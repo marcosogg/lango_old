@@ -8,6 +8,10 @@ import { webRoutes } from "./web-routes.js";
 import { db } from "./models/db.js";
 import { accountsController } from "./controllers/accounts-controller.js";
 
+// Add a JSON stringify helper to Handlebars
+Handlebars.registerHelper("json", (context) => JSON.stringify(context));
+
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
