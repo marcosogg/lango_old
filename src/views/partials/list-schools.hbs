@@ -1,0 +1,24 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>School</th>
+      <th>Language</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each category.schools}}
+      <tr>
+        <td>
+          {{school}}
+        </td>
+        <td>
+          {{language}}
+        </td>
+        <td>
+          {{location}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
