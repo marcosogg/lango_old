@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "firstName": "q",
+      "lastName": "q",
+      "email": "marcosogomes@gmail.com",
+      "password": "q",
+      "_id": "736743b7-92e5-42c1-be0d-1b7d6fa3667a"
+    }
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "schoolname": "qqq",
+      "language": "qqq",
+      "location": "qqq",
+      "_id": "28388f06-d9c0-4636-8651-0a13ab53c5a4",
+      "categoryid": "badfb61f-86e2-4798-b7bc-4f6877a4b600"
+    }
+  ]
+}
