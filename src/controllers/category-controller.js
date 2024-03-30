@@ -18,7 +18,7 @@ export const categoryController = {
       const category = await db.categoryStore.getCategoryById(request.params.id);
       const newSchool = {
         schoolname: request.payload.schoolname,
-        language: request.payload.language,
+        focus: request.payload.focus,
         location: request.payload.location,
       };
       await db.schoolStore.addSchool(category._id, newSchool);

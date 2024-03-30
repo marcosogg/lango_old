@@ -5,21 +5,21 @@
       "lastName": "Simpson",
       "email": "homer@simpson.com",
       "password": "secret",
-      "_id": "8936d325-a644-4c30-9357-c317d57c4ba0"
+      "_id": "01a2e6f7-df16-4506-9f81-7b4cd1187a24"
     },
     {
       "firstName": "Marge",
       "lastName": "Simpson",
       "email": "marge@simpson.com",
       "password": "secret",
-      "_id": "2300bb01-7332-4a58-83f1-752c66e0739b"
+      "_id": "4a9803a8-2060-4e17-99f0-559cd397d920"
     },
     {
       "firstName": "Bart",
       "lastName": "Simpson",
       "email": "bart@simpson.com",
       "password": "secret",
-      "_id": "f3f98dad-7c05-4366-beb8-424beeff7220"
+      "_id": "539b1807-0baa-46ed-925f-35cb731eef32"
     }
   ],
   "categories": [
@@ -42,14 +42,14 @@
   "schools": [
     {
       "schoolname": "qqq",
-      "language": "qqq",
+      "focus": "qqq",
       "location": "qqq",
       "_id": "28388f06-d9c0-4636-8651-0a13ab53c5a4",
       "categoryid": "badfb61f-86e2-4798-b7bc-4f6877a4b600"
     },
     {
       "schoolname": "b",
-      "language": "b",
+      "focus": "b",
       "location": "b",
       "_id": "d6771944-01d2-4af7-a852-3b2abb16e0ad",
       "categoryid": "0a71f634-fdbc-443c-9128-899654006a6c"

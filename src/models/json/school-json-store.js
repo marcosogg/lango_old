@@ -40,7 +40,7 @@ export const schoolJsonStore = {
 
   async updateSchool(school, updatedSchool) {
     school.schoolname = updatedSchool.schoolname;
-    school.language = updatedSchool.language;
+    school.focus = updatedSchool.focus;
     school.location = updatedSchool.location;
     await db.write();
   },
