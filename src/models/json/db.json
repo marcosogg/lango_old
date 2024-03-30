@@ -1,14 +1,44 @@
 {
   "users": [
     {
-      "firstName": "q",
-      "lastName": "q",
-      "email": "marcosogomes@gmail.com",
-      "password": "q",
-      "_id": "736743b7-92e5-42c1-be0d-1b7d6fa3667a"
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "8936d325-a644-4c30-9357-c317d57c4ba0"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "2300bb01-7332-4a58-83f1-752c66e0739b"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "f3f98dad-7c05-4366-beb8-424beeff7220"
     }
   ],
-  "categories": [],
+  "categories": [
+    {
+      "userid": "07d88d8e-89be-4d1b-8f06-20d322baf811",
+      "title": "A",
+      "_id": "ff7ca3bc-cb6e-403a-856c-2c84bec04bb9"
+    },
+    {
+      "userid": "07d88d8e-89be-4d1b-8f06-20d322baf811",
+      "title": "B",
+      "_id": "0a71f634-fdbc-443c-9128-899654006a6c"
+    },
+    {
+      "userid": "876bea34-82b2-479b-ad5a-a242eba64cb5",
+      "title": "s",
+      "_id": "b067dde1-140e-4b60-aae8-251d6fc45e5c"
+    }
+  ],
   "schools": [
     {
       "schoolname": "qqq",
@@ -16,6 +46,13 @@
       "location": "qqq",
       "_id": "28388f06-d9c0-4636-8651-0a13ab53c5a4",
       "categoryid": "badfb61f-86e2-4798-b7bc-4f6877a4b600"
+    },
+    {
+      "schoolname": "b",
+      "language": "b",
+      "location": "b",
+      "_id": "d6771944-01d2-4af7-a852-3b2abb16e0ad",
+      "categoryid": "0a71f634-fdbc-443c-9128-899654006a6c"
     }
   ]
 }
