@@ -6,9 +6,41 @@
       "email": "marcosogomes@gmail.com",
       "password": "q",
       "_id": "736743b7-92e5-42c1-be0d-1b7d6fa3667a"
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "marcosogomes@gmail.com",
+      "password": "a",
+      "_id": "8a23bb6f-9ede-4b73-86c4-885a33b81287"
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "marcosogomes@gmail.com",
+      "password": "a",
+      "_id": "f0ef65e5-ee94-4ba5-9e1d-47c095d15c0e"
+    },
+    {
+      "firstName": "b",
+      "lastName": "b",
+      "email": "altitudgain@gmail.com",
+      "password": "b",
+      "_id": "794d4383-6b3b-4f2f-956e-f82b229c4e33"
     }
   ],
-  "categories": [],
+  "categories": [
+    {
+      "userid": "794d4383-6b3b-4f2f-956e-f82b229c4e33",
+      "title": "Ingles",
+      "_id": "2fd46fde-7670-47fb-ac68-dedfe6f12013"
+    },
+    {
+      "userid": "794d4383-6b3b-4f2f-956e-f82b229c4e33",
+      "title": "Espanhol",
+      "_id": "2be14d70-6ff3-4ad3-91d1-63b73c9ef3b7"
+    }
+  ],
   "schools": [
     {
       "schoolname": "qqq",
@@ -16,6 +48,20 @@
       "location": "qqq",
       "_id": "28388f06-d9c0-4636-8651-0a13ab53c5a4",
       "categoryid": "badfb61f-86e2-4798-b7bc-4f6877a4b600"
+    },
+    {
+      "schoolname": "Museu",
+      "language": "asfa",
+      "location": null,
+      "_id": "e199de47-93d8-4666-8c94-29fc86bb6668",
+      "categoryid": "bea4958d-e6a0-4763-9bf8-8c283604e81e"
+    },
+    {
+      "schoolname": "Aprenada  rapido",
+      "language": "Ingles",
+      "location": null,
+      "_id": "2fa75712-240d-4e04-97ca-91b3af2beb51",
+      "categoryid": "2fd46fde-7670-47fb-ac68-dedfe6f12013"
     }
   ]
 }
